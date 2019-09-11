@@ -6,7 +6,7 @@
     <div class="cv-item">
       <h3>{{title}}</h3>
       <h4>{{company}}</h4>
-      <p>{{start}} - {{end}} {{duration}}
+      <p>{{start}} - {{end}} &bull; {{start | duration(end)}}
       </p>
       <div v-html="description"></div>
       <div v-html="extra"></div>
@@ -22,7 +22,7 @@ export default {
     title: String,
     company: String,
     start: String,
-    end: String,
+    end: {default: "Present", type: String},
     duration: String,
     description: String,
     extra: String
