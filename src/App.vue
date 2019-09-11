@@ -4,20 +4,30 @@
     <h1>CV Martin Ott</h1>
     <h2>Secondary education</h2>
     <EducationSection
-      v-for="school in CvData.secondaryeducation"
-      v-bind:institution="school.institution"
-      v-bind:start="school.start"
-      v-bind:end="school.end"
+      v-for="ins in CvData.education.secondary"
+      v-bind:institution="ins.institution"
+      v-bind:start="ins.start"
+      v-bind:end="ins.end"
     />
     <h2>Higher education</h2>
     <EducationSection
-      v-for="school in CvData.highereducation"
-      v-bind:institution="school.institution"
-      v-bind:major="school.major"
-      v-bind:logo="school.logo"
-      v-bind:start="school.start"
-      v-bind:end="school.end"
-      v-bind:extra="school.extra"
+      v-for="ins in CvData.education.higher"
+      v-bind:institution="ins.institution"
+      v-bind:major="ins.major"
+      v-bind:logo="ins.logo"
+      v-bind:start="ins.start"
+      v-bind:end="ins.end"
+      v-bind:extra="ins.extra"
+    />
+    <h2>Licenses and Certifications</h2>
+    <EducationSection
+      v-for="ins in CvData.education.certifications"
+      v-bind:institution="ins.institution"
+      v-bind:major="ins.major"
+      v-bind:logo="ins.logo"
+      v-bind:start="ins.start"
+      v-bind:end="ins.end"
+      v-bind:extra="ins.extra"
     />
     <h2>Work experience</h2>
     <ExperienceSection

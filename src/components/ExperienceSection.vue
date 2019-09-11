@@ -60,5 +60,8 @@ a {
 .cv-item {
   margin-left: 75px;
 }
+.cv-item > div {
+  margin-top: 1em;
+}
 </style>
 
