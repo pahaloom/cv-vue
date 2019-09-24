@@ -6,7 +6,7 @@
     <div class="cv-item">
       <h3>{{major}}</h3>
       <h4>{{institution}}</h4>
-      <p>{{start}} - {{end}}
+      <p>{{start}} - {{end ? end : 'No expiration date'}}
       </p>
       <div v-html="extra"></div>
     </div>
