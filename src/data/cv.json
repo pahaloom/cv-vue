@@ -11,6 +11,11 @@
         "end" : "2003",
         "extra" : "The university later changed its name to Tallinn University"} ],
     "certifications" : [
+      { "institution" : "Vaadin Ltd",
+        "logo" : "logo-vaadin-certified.svg",
+        "major" : "Certified Vaadin 14 Developer",
+        "start" : "03-2020",
+        "id" : "#62a5b4e6-f2a5-4a26-9eeb-ef855293d7c2"},
       { "institution" : "Sun Microsystems",
         "logo" : "logo-sun-certified.png",
         "major" : "Sun Certified Programmer for the Java(tm) 2 platform, standard edition 5.0",
