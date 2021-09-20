@@ -1,5 +1,8 @@
 # cv-vue
 
+CV of Martin Ott
+Also downloadable in [pdf](CV-vue.pdf) form.
+
 ## Project setup
 ```
 npm install
