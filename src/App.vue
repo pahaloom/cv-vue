@@ -4,14 +4,14 @@
     <h1>CV Martin Ott</h1>
     <h2>Secondary education</h2>
     <EducationSection
-      v-for="ins in CvData.education.secondary"
+      v-for="ins in CvData.education.secondary" :key="ins"
       v-bind:institution="ins.institution"
       v-bind:start="ins.start"
       v-bind:end="ins.end"
     />
     <h2>Higher education</h2>
     <EducationSection
-      v-for="ins in CvData.education.higher"
+      v-for="ins in CvData.education.higher" :key="ins"
       v-bind:institution="ins.institution"
       v-bind:major="ins.major"
       v-bind:logo="ins.logo"
@@ -21,7 +21,7 @@
     />
     <h2>Licenses and Certifications</h2>
     <EducationSection
-      v-for="ins in CvData.education.certifications"
+      v-for="ins in CvData.education.certifications" :key="ins"
       v-bind:institution="ins.institution"
       v-bind:major="ins.major"
       v-bind:logo="ins.logo"
@@ -31,7 +31,7 @@
     />
     <h2>Work experience</h2>
     <ExperienceSection
-      v-for="exp in CvData.experience"
+      v-for="exp in CvData.experience" :key="exp"
       v-bind:title="exp.title"
       v-bind:company="exp.company"
       v-bind:logo="exp.logo"
@@ -71,3 +71,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
