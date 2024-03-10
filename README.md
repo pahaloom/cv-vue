@@ -1,7 +1,7 @@
 # cv-vue
 
 CV of Martin Ott
-Also downloadable in [pdf](CV-vue.pdf) form.
+Also downloadable in [pdf](CV-Martin-Ott.pdf) form.
 
 ## Project setup
 ```
@@ -30,3 +30,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
