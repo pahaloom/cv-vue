@@ -69,6 +69,7 @@ export default {
   text-align: left;
   color: #2c3e50;
   margin-top: 60px;
+  margin-bottom: 30px;
 }
 </style>
 
