@@ -21,6 +21,13 @@
         "major" : "Sun Certified Programmer for the Java(tm) 2 platform, standard edition 5.0",
         "start" : "03-2007"} ]},
   "experience" : [
+    { "title": "Software Developer",
+      "company": "Piletilevi",
+      "logo": "logo-piletilevi.jpeg",
+      "start": "09-2024",
+      "end": "01-2025",
+      "description": "New portal development",
+      "extra": "Tools used involve Java, Spring and MongoDB"},
     { "title" : "Software Developer",
       "company" : "Finestmedia",
       "logo" : "logo-finestmedia.jpeg",
